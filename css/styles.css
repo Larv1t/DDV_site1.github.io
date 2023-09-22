@@ -1,0 +1,848 @@
+body{
+  background: #0c1618;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.frame {
+  background-color: #0c1618;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #0c1618;
+  overflow: hidden;
+  width: 1880px;
+  height: 5000px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 2113px;
+  height: 2729px;
+  top: 0;
+  left: 0;
+}
+
+.frame .element {
+  position: absolute;
+  width: 2113px;
+  height: 1086px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 1086px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #0c1618;
+}
+
+.frame .line {
+  height: 956px;
+  top: 116px;
+  left: 107px;
+  position: absolute;
+  width: 1px;
+}
+
+.frame .navbar {
+  position: absolute;
+  width: 479px;
+  height: 24px;
+  top: 61px;
+  left: 1140px;
+}
+
+.frame .text-wrapper {
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-Bold", Inter;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  left: 127px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-Bold", Inter;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+  left: 254px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-Bold", Inter;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+  left: 381px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-Bold", Inter;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .rectangle-2 {
+  position: absolute;
+  width: 126px;
+  height: 20px;
+  top: 65px;
+  left: 1647px;
+  border-radius: 50px;
+  border: 3px solid;
+  border-color: #ffffff;
+}
+
+.frame .mask-group {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 69px;
+  left: 1653px;
+}
+
+.frame .img {
+  position: absolute;
+  width: 35px;
+  height: 270px;
+  top: 464px;
+  left: 34px;
+}
+
+.frame .group {
+  position: absolute;
+  width: 398px;
+  height: 579px;
+  top: 315px;
+  left: 193px;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  top: 197px;
+  left: 0;
+  font-family: "Barlow-SemiBold", Barlow;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 59px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .the-computer-headset {
+  position: absolute;
+  top: 315px;
+  left: 0;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper {
+  position: absolute;
+  width: 388px;
+  height: 64px;
+  top: 515px;
+  left: 0;
+  background-color: #d1ac00;
+  border-radius: 16px;
+  border: 1.5px solid;
+  border-color: #004643;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  top: 18px;
+  left: 126px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #0c1618;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .pro-headset-gallery {
+  position: absolute;
+  height: 962px;
+  flex-shrink: 0;
+  top: 124px;
+  left: 830px;
+  object-fit: cover;
+}
+
+.frame .mask-group-2 {
+  position: absolute;
+  width: 173px;
+  height: 97px;
+  top: 24px;
+  left: 107px;
+}
+
+.frame .logitech-g-pro-x {
+  position: absolute;
+  width: 666px;
+  height: 890px;
+  top: 172px;
+  left: 676px;
+  mix-blend-mode: color-dodge;
+  object-fit: cover;
+}
+
+.frame .overlap-wrapper {
+  position: absolute;
+  width: 1926px;
+  height: 900px;
+  top: 1080px;
+  left: 0;
+}
+
+.frame .overlap-2 {
+  position: relative;
+  width: 1920px;
+  height: 900px;
+  background-color: #004643;
+}
+
+.frame .overlap-group-2 {
+  position: absolute;
+  width: 199px;
+  height: 64px;
+  top: 661px;
+  left: 940px;
+  background-color: #d1ac00;
+  border-radius: 16px;
+  border: 1.5px solid;
+  border-color: #005169;
+}
+
+.frame .text-wrapper-9 {
+  position: absolute;
+  top: 18px;
+  left: 80px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #004643;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-10 {
+  position: absolute;
+  top: 318px;
+  left: 940px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .logitech-g-pro-x-2 {
+  position: absolute;
+  width: 553px;
+  height: 739px;
+  top: 80px;
+  left: 107px;
+  object-fit: cover;
+}
+
+.frame .the-logitech-g-PRO-x {
+  position: absolute;
+  top: 436px;
+  left: 940px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-group-wrapper {
+  position: absolute;
+  width: 1882px;
+  height: 750px;
+  top: 1979px;
+  left: 0;
+}
+
+.frame .overlap-3 {
+  position: relative;
+  width: 1880px;
+  height: 750px;
+  background-color: #0c1618;
+}
+
+.frame .group-2 {
+  position: absolute;
+  width: 1880px;
+  height: 483px;
+  top: 181px;
+  left: 0;
+}
+
+.frame .overlap-4 {
+  position: absolute;
+  width: 750px;
+  height: 238px;
+  top: 123px;
+  left: 1130px;
+}
+
+.frame .element-2 {
+  position: absolute;
+  width: 441px;
+  height: 148px;
+  top: 45px;
+  left: 309px;
+}
+
+.frame .element-3 {
+  position: absolute;
+  width: 346px;
+  height: 238px;
+  top: 0;
+  left: 0;
+}
+
+.frame .element-4 {
+  position: absolute;
+  width: 106px;
+  height: 198px;
+  top: 143px;
+  left: 0;
+}
+
+.frame .element-5 {
+  position: absolute;
+  width: 81px;
+  height: 315px;
+  top: 84px;
+  left: 138px;
+}
+
+.frame .overlap-group-3 {
+  position: absolute;
+  width: 821px;
+  height: 483px;
+  top: 0;
+  left: 264px;
+}
+
+.frame .element-6 {
+  position: absolute;
+  width: 526px;
+  height: 483px;
+  top: 0;
+  left: 0;
+}
+
+.frame .element-7 {
+  position: absolute;
+  width: 331px;
+  height: 412px;
+  top: 36px;
+  left: 490px;
+}
+
+.frame .text-wrapper-11 {
+  position: absolute;
+  top: 48px;
+  left: 690px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #faf4d3;
+  font-size: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-5 {
+  position: absolute;
+  width: 1888px;
+  height: 2271px;
+  top: 2729px;
+  left: 0;
+}
+
+.frame .element-8 {
+  position: absolute;
+  width: 1884px;
+  height: 1850px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-6 {
+  position: relative;
+  width: 1880px;
+  height: 1850px;
+  background-color: #004643;
+}
+
+.frame .overlap-7 {
+  position: absolute;
+  width: 1728px;
+  height: 1486px;
+  top: 107px;
+  left: 17px;
+}
+
+.frame .group-3 {
+  position: absolute;
+  width: 828px;
+  height: 1147px;
+  top: 209px;
+  left: 900px;
+}
+
+.frame .BLUE-VO-CE {
+  position: absolute;
+  top: 65px;
+  left: 60px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .PRO-g-features-a {
+  position: absolute;
+  top: 401px;
+  left: 60px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .DTS-HEADPHONE-x {
+  position: absolute;
+  top: 752px;
+  left: 68px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-13 {
+  position: absolute;
+  top: 336px;
+  left: 60px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-14 {
+  position: absolute;
+  top: 687px;
+  left: 68px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .with-a-sturdy-and {
+  position: absolute;
+  top: 1099px;
+  left: 60px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-15 {
+  position: absolute;
+  top: 1034px;
+  left: 60px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-group-4 {
+  position: absolute;
+  width: 45px;
+  height: 1079px;
+  top: 1px;
+  left: 0;
+}
+
+.frame .line-2 {
+  height: 1033px;
+  top: 27px;
+  left: 23px;
+  object-fit: cover;
+  position: absolute;
+  width: 1px;
+}
+
+.frame .ellipse {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  left: 10px;
+  background-color: #d1ac00;
+  border-radius: 12.5px;
+}
+
+.frame .ellipse-2 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.frame .ellipse-3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 346px;
+  left: 10px;
+  background-color: #d1ac00;
+  border-radius: 12.5px;
+}
+
+.frame .ellipse-4 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 336px;
+  left: 0;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.frame .ellipse-5 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 697px;
+  left: 10px;
+  background-color: #d1ac00;
+  border-radius: 12.5px;
+}
+
+.frame .ellipse-6 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 687px;
+  left: 0;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.frame .ellipse-7 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 1044px;
+  left: 10px;
+  background-color: #d1ac00;
+  border-radius: 12.5px;
+}
+
+.frame .ellipse-8 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 1034px;
+  left: 0;
+  border-radius: 22.5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.frame .text-wrapper-16 {
+  position: absolute;
+  top: 0;
+  left: 742px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 824px;
+  height: 410px;
+  top: 107px;
+  left: 52px;
+}
+
+.frame .mask-group-3 {
+  position: absolute;
+  width: 887px;
+  height: 563px;
+  top: 18px;
+  left: 13px;
+}
+
+.frame .vector-2 {
+  position: absolute;
+  width: 863px;
+  height: 369px;
+  top: 464px;
+  left: 25px;
+}
+
+.frame .mask-group-4 {
+  position: absolute;
+  width: 862px;
+  height: 369px;
+  top: 464px;
+  left: 25px;
+}
+
+.frame .vector-3 {
+  position: absolute;
+  width: 858px;
+  height: 382px;
+  top: 787px;
+  left: 38px;
+}
+
+.frame .mask-group-5 {
+  position: absolute;
+  width: 857px;
+  height: 382px;
+  top: 788px;
+  left: 39px;
+}
+
+.frame .vector-4 {
+  position: absolute;
+  width: 904px;
+  height: 377px;
+  top: 1108px;
+  left: 0;
+}
+
+.frame .mask-group-6 {
+  position: absolute;
+  width: 903px;
+  height: 377px;
+  top: 1108px;
+  left: 0;
+}
+
+.frame .overlap-8 {
+  position: absolute;
+  width: 332px;
+  height: 64px;
+  top: 1651px;
+  left: 774px;
+  background-color: #d1ac00;
+  border-radius: 16px;
+  border: 1.5px solid;
+  border-color: #005169;
+}
+
+.frame .text-wrapper-17 {
+  position: absolute;
+  top: 18px;
+  left: 122px;
+  font-family: "Barlow-Bold", Barlow;
+  font-weight: 700;
+  color: #004643;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .element-9 {
+  position: absolute;
+  width: 1888px;
+  height: 423px;
+  top: 1848px;
+  left: 0;
+}
+
+.frame .overlap-9 {
+  position: relative;
+  width: 1880px;
+  height: 423px;
+  background-color: #0c1618;
+}
+
+.frame .text-wrapper-18 {
+  position: absolute;
+  top: 81px;
+  left: 914px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-19 {
+  position: absolute;
+  top: 128px;
+  left: 914px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-20 {
+  position: absolute;
+  top: 175px;
+  left: 905px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-21 {
+  position: absolute;
+  top: 222px;
+  left: 900px;
+  font-family: "Barlow-Regular", Barlow;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .mask-group-7 {
+  position: absolute;
+  width: 147px;
+  height: 29px;
+  top: 281px;
+  left: 870px;
+}
